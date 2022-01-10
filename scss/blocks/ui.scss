@@ -1,0 +1,13 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 110px;
+  padding: 0 5px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: math.div(27, 20) * 100%;
+  text-align: center;
+  user-select: none;
+  transition: color 0.3s ease 0s, background-color 0.3s ease 0s;
+}
