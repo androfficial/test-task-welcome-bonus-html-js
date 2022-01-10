@@ -89,7 +89,8 @@ button {
   background: none;
   border: none;
 }
-button:active, button:focus {
+button:active,
+button:focus {
   outline: none;
 }
 
@@ -156,7 +157,9 @@ body {
 }
 .bonus__wrapper {
   display: grid;
-  grid-template: auto/minmax(215px, 257px) minmax(auto, 269px) minmax(auto, 369px) 1fr;
+  grid-template:
+    auto/minmax(215px, 257px) minmax(auto, 269px) minmax(auto, 369px)
+    1fr;
   grid-auto-flow: row;
   align-items: center;
   height: 100%;
@@ -165,14 +168,14 @@ body {
 }
 @media (max-width: 992px) {
   .bonus__wrapper {
-    grid-template: repeat(2, auto)/repeat(3, 1fr);
+    grid-template: repeat(2, auto) / repeat(3, 1fr);
     row-gap: 20px;
     padding: 0;
   }
 }
 @media (max-width: 768px) {
   .bonus__wrapper {
-    grid-template: repeat(2, auto)/repeat(2, auto);
+    grid-template: repeat(2, auto) / repeat(2, auto);
     gap: 12px 10px;
   }
 }
@@ -482,7 +485,8 @@ body {
   visibility: hidden;
   opacity: 0;
 }
-.form-rating__star:checked, .form-rating__star:checked ~ .form-rating__label {
+.form-rating__star:checked,
+.form-rating__star:checked ~ .form-rating__label {
   color: #fd9904;
 }
 .form-rating__label {
@@ -505,7 +509,9 @@ body {
   }
 }
 @media (hover: hover) {
-  .form-rating__label:hover, .form-rating__label:hover ~ .form-rating__label, .form-rating__label:checked ~ .form-rating__label:hover {
+  .form-rating__label:hover,
+  .form-rating__label:hover ~ .form-rating__label,
+  .form-rating__label:checked ~ .form-rating__label:hover {
     color: #fae78b;
   }
 }
@@ -582,7 +588,7 @@ body {
   height: 21px;
   margin: 0px 0px 0px 10px;
   content: "";
-  background-image: url("../../img/fire.png");
+  background-image: url("../img/fire.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
