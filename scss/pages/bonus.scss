@@ -220,7 +220,7 @@
   }
   @media (max-width: 480px) {
     align-items: flex-end;
-    justify-content: start;
+    justify-content: flex-start;
   }
   // .rating-bonus__wrapper
   &__wrapper {
@@ -257,7 +257,7 @@
     }
     @media (max-width: 480px) {
       align-self: center;
-      margin: -16px 0px 0px -25px;
+      margin: -16px 0px 0px -15px;
     }
   }
   // .rating-bonus__title
