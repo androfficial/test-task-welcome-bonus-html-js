@@ -73,3 +73,10 @@ function showResult() {
 function numberWithCommas(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
+
+if (window.innerWidth <= 480) {
+  document
+    .querySelector("input[type=radio]:checked")
+    .removeAttribute("checked");
+  document.getElementById("rating-bonus__5").checked = true;
+}
