@@ -244,6 +244,9 @@
     @media (max-width: 768px) {
       flex: 0 1 auto;
     }
+    @media (max-width: 480px) {
+      padding: 0;
+    }
   }
   // rating-bonus__grade
   &__grade {
@@ -254,7 +257,7 @@
     }
     @media (max-width: 480px) {
       align-self: center;
-      margin: -16px 0px 0px -35px;
+      margin: -16px 0px 0px -25px;
     }
   }
   // .rating-bonus__title
