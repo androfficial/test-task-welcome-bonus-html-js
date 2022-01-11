@@ -31,8 +31,6 @@ async function onHandleStar(e, formRatingList) {
       count += 1;
       showResult();
     }
-  } else {
-    alert("Sorry, you have already voted.");
   }
 }
 
